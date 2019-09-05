@@ -1,15 +1,15 @@
 package com.kogitolabs.boot.demo.wls1213;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/resource")
+@Controller
 public class HelloWorldController {
 
-    @RequestMapping(method = RequestMethod.GET)
-    String readResource() {
-        return "Hello World!!";
+    @RequestMapping(method = RequestMethod.GET, value = "/resource")
+    String readResource(Model model) {
+        return "index";
     }
 }
