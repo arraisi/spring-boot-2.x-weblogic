@@ -5,6 +5,22 @@
     <title>Weblogic App</title>
 </head>
 <body>
-<h3>HELLO WORLD</h3>
+<h3>Daftar Customer</h3>
+<table width="400" border="1">
+    <thead>
+    <tr>
+        <td>No</td>
+        <td>Name</td>
+        <td>Customer Since</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="customer,iterStat: ${listCustomer}">
+        <td th:text="${iterStat.count}"></td>
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.since}"></td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
