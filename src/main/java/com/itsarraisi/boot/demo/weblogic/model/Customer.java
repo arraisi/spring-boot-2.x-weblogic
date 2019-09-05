@@ -1,4 +1,4 @@
-package com.kogitolabs.boot.demo.wls1213.model;
+package com.itsarraisi.boot.demo.weblogic.model;
 
 public class Customer {
     private String id;

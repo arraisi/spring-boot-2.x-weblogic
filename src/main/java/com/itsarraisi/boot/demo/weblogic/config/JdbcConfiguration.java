@@ -1,4 +1,4 @@
-package com.kogitolabs.boot.demo.wls1213.config;
+package com.itsarraisi.boot.demo.weblogic.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;

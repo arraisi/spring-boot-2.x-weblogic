@@ -1,6 +1,6 @@
-package com.kogitolabs.boot.demo.wls1213.dao;
+package com.itsarraisi.boot.demo.weblogic.dao;
 
-import com.kogitolabs.boot.demo.wls1213.model.Customer;
+import com.itsarraisi.boot.demo.weblogic.model.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

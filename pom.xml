@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kogitolabs.boot.demo</groupId>
-    <artifactId>wls1213</artifactId>
+    <artifactId>webapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>wls1213</name>
+    <name>weblogic</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
